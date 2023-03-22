@@ -36,11 +36,11 @@ public class Main {
         bootcamp1.getConteudos().add(mentoria);
 
         Dev dev1 = new Dev();
-        dev1.setNome("Camila");
+        dev1.setNome("Thierry");
         dev1.inscreverBootcamp(bootcamp1);
 
         Dev dev2 = new Dev();
-        dev2.setNome("João");
+        dev2.setNome("Messi");
         dev2.inscreverBootcamp(bootcamp1);
 
 
@@ -61,7 +61,7 @@ public class Main {
         System.out.println("Inscritos:" + dev2.getNome() + ":" + dev2.getConteudosInscritos());
 
 
-        System.out.println("XP Camila:" + dev1.calcularTotalXp());
-        System.out.println("XP Joao:" + dev2.calcularTotalXp());
+        System.out.println("XP Thierry:" + dev1.calcularTotalXp());
+        System.out.println("XP Messi:" + dev2.calcularTotalXp());
     }
 }
